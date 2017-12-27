@@ -58,7 +58,7 @@ class Tree_Reducer():
 
 
     def __reduce_tree(self):
-        # open the utput stream and run the simplification recursion
+        # open the output stream and run the reducing recursion
         with open(self.output_directory, 'w') as output_file:
             self.__traverse_recursive(self.head_node, set(), output_file)
 
@@ -67,7 +67,7 @@ class Tree_Reducer():
         # remove duplicate technologies with set difference
         node.data = node.data - parent_set
 
-        # if node still has uniwue technologies than print the 
+        # if node still has unique elements than print them
         if node.data:
             output_stream.write('{}\t -> {}\n'.format(node.id, ', '.join(sorted(node.data))))
 
@@ -79,7 +79,7 @@ class Tree_Reducer():
     def __find_parent(self, node_id, tree_map):
         id_elements = node_id.split('/')
 
-        # look for parent directory
+        # look for parent directory if it exists
         for i in range(1, len(id_elements)):
             parent = tree_map.get('/'.join(id_elements[:-i]))
             if parent:
