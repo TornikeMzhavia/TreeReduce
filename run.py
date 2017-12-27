@@ -1,4 +1,4 @@
-from Tree import Tree_Simplifier
+from Tree import Tree_Reducer
 from configobj import ConfigObj
 
 def data_generator(input_directory, split_symbol, list_separator):
@@ -35,5 +35,5 @@ if __name__ == '__main__':
     data_source = data_generator(input_directory, split_symbol, list_separator)
 
     # create the simplifier instance and run it
-    simplifier = Tree_Simplifier(data_source, output_directory)
+    simplifier = Tree_Reducer(data_source, output_directory)
     simplifier.run()
