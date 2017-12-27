@@ -9,12 +9,15 @@ As an output a deduplicated and compressed tree is presented.
 ## Prerequisites
 
 * Python 3 is needed to run this appllication.
-* Activate the 'venv' virtual environment. (More info [here](https://docs.python.org/3/tutorial/venv.html))
-* Install the required packages from the **requirements.txt** file by running
+* Activate the 'venv' virtual environment from the directory: (More info [here](https://docs.python.org/3/tutorial/venv.html))
+```
+venv\Scripts\activate
+```
+* Install the required packages from the **requirements.txt** file by running:
 ```
 pip install -r requirements.txt
 ```
-* File with input data formatted the following way
+* Create file with input data formatted the following way (or use the existing sample one):
 
 ```
 url1 -> technology1, technology2 ...
