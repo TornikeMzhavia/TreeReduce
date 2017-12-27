@@ -32,9 +32,6 @@
     <Content Include="config.ini">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="epfl_tech_tree_input.txt" />
-    <Content Include="README.md" />
-    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="venv\">
