@@ -1,5 +1,5 @@
 http://epfl.ch/site	 -> Apache, PHP 5
 http://epfl.ch/site/drupal	 -> Drupal, RedHat
 http://epfl.ch/site/drupal/c	 -> jQuery
-http://epfl.ch/site/jml	 -> Joomla, jQuery, PHP 4
+http://epfl.ch/site/jml	 -> Joomla, PHP 4, jQuery
 http://epfl.ch/site/jml/pdfs	 -> PDF generator

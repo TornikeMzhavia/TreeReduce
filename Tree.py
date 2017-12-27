@@ -69,7 +69,7 @@ class Tree_Reducer():
 
         # if node still has uniwue technologies than print the 
         if node.data:
-            output_stream.write('{}\t -> {}\n'.format(node.id, ', '.join(node.data)))
+            output_stream.write('{}\t -> {}\n'.format(node.id, ', '.join(sorted(node.data))))
 
         # traverse children nodes recursively
         for child in node.children:
