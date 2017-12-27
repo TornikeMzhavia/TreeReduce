@@ -29,7 +29,7 @@ if __name__ == '__main__':
     input_directory = config['input_directory']
     output_directory = config['output_directory']
     split_symbol = config['split_symbol']
-    list_separator = config['element_separator']
+    list_separator = config['list_separator']
 
     # create the inut data source
     data_source = data_generator(input_directory, split_symbol, list_separator)

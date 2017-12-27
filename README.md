@@ -40,7 +40,7 @@ run.py
 * **input_directory** - path of the file containing the input tree in the correct format
 * **output_directory** - path for the output file to be created
 * **split_symbol** - Input format specifier. The default is set to '->'. Others can be used
-* **element_separator** - Input format specifier. The default is set to ','. Others can be used
+* **list_separator** - Input format specifier. The default is set to ','. Others can be used
 
 ## Author
 
