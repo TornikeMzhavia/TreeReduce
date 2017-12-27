@@ -1,0 +1,10 @@
+http://epfl.ch/site/drupal/            -> Drupal, Apache, PHP 5, RedHat
+http://epfl.ch/site/drupal/a          -> Drupal, Apache, PHP 5, RedHat
+http://epfl.ch/site/drupal/a/1      -> Drupal, Apache, PHP 5, RedHat
+http://epfl.ch/site/drupal/a/2      -> Drupal, Apache, PHP 5, RedHat
+http://epfl.ch/site/drupal/a/3/4  -> Drupal, Apache, PHP 5, RedHat
+http://epfl.ch/site/drupal/b          -> Drupal, Apache, PHP 5, RedHat
+http://epfl.ch/site/drupal/c           -> Drupal, Apache, PHP 5, RedHat, jQuery
+http://epfl.ch/site/jml                    -> Joomla, Apache, PHP 4, jQuery
+http://epfl.ch/site/jml/pdfs           -> PDF generator
+http://epfl.ch/site                           -> Apache, PHP 5
