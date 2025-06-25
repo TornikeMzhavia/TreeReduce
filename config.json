@@ -1,0 +1,6 @@
+{
+  "input_directory": "epfl_tech_tree_input.txt",
+  "output_directory": "epfl_tech_tree_output.txt",
+  "split_symbol": "->",
+  "list_separator": ","
+}
