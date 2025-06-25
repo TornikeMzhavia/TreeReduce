@@ -24,7 +24,7 @@ def data_generator(input_directory, split_symbol, list_separator):
     
 if __name__ == '__main__':
     # read the configuration
-    config = json.load('config.ini')
+    config = json.load('config.json')
 
     input_directory = config['input_directory']
     output_directory = config['output_directory']
