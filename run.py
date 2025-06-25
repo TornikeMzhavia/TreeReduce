@@ -1,5 +1,5 @@
+import json
 from Tree import Tree_Reducer
-from configobj import ConfigObj
 
 def data_generator(input_directory, split_symbol, list_separator):
         '''
@@ -24,7 +24,7 @@ def data_generator(input_directory, split_symbol, list_separator):
     
 if __name__ == '__main__':
     # read the configuration
-    config = ConfigObj('config.ini', interpolation = False)
+    config = json.load('config.ini')
 
     input_directory = config['input_directory']
     output_directory = config['output_directory']
